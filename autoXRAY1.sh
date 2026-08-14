@@ -692,7 +692,6 @@ print_config() {
       {
         "domain": [
           "geosite:category-ads",
-          "geosite:win-spy"
         ],
         "outboundTag": "block"
       },
@@ -711,14 +710,7 @@ print_config() {
       {
         "domain": [
           "geosite:private",
-          "ifconfig.me",
-          "checkip.amazonaws.com",
-          "pify.org",
-          "geosite:category-ip-geo-detect",
-          "geosite:apple",
-          "geosite:apple-pki",
-          "geosite:f-droid",
-          "geosite:yandex",
+		  "geosite:yandex",
           "geosite:vk",
           "geosite:category-ru"
         ],
