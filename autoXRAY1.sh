@@ -657,10 +657,6 @@ cat << 'EOF' | envsubst > "$SCRIPT_DIR/config.json"
         ],
         "outboundTag": "block"
       },
-	{
-	  "outboundTag": "${TAG_WARP}",
-	  "domain": ["ifconfig.me","checkip.amazonaws.com","pify.org","2ip.io","habr.com","geosite:canva"]
-	}
     ],
     "domainStrategy": "IPIfNonMatch"
   }
